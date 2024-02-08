@@ -9,7 +9,7 @@ Vars.player.snapInterpolation();
 var down = false;
 
 Events.run(Trigger.update, () => {
-if(Core.input.ctrl() && Core.input.alt() && Core.input.isTouched() && !Vars.state.isMenu()){
+if(Core.input.alt() && Core.input.isTouched() && !Vars.state.isMenu()){
 if(!down){
 down = true;
 tp();
