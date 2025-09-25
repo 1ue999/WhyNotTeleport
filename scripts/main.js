@@ -1,6 +1,7 @@
 if(!Vars.headless){
 
 function tp(){
+if(Vars.player == null) return;
 Vars.player.unit().set(Core.input.mouseWorld());
 Fx.teleportOut.at(Vars.player.x, Vars.player.y, Pal.lancerLaser);
 Vars.player.snapInterpolation();
