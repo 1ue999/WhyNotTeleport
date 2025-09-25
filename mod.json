@@ -6,5 +6,5 @@
 	"description": "[accent]Alt + Click[] to teleport to your cursor.\n\n[scarlet]Disclaimer: not intended for multiplayer use![]",
 	"version": "0.2",
 	"hidden": true,
-	"minGameVersion": 140
+	"minGameVersion": 147
 }
